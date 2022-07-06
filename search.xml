@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>My first Post</title>
+    <url>/2022/07/06/My-first-Post/</url>
+    <content><![CDATA[<h2 id="为什么我要搭建博客"><a href="#为什么我要搭建博客" class="headerlink" title="为什么我要搭建博客"></a>为什么我要搭建博客</h2><ul>
+<li>为记录<ul>
+<li>记录下生活，学习，探索</li>
+</ul>
+</li>
+<li>为对话<ul>
+<li>与自己对话，与世界对话，与他人对话</li>
+</ul>
+</li>
+<li>为意义<ul>
+<li>人生的意义，需要探索的过程</li>
+<li>记录思考，让每次的探索不从零开始</li>
+<li>博客也成为一种仪式</li>
+</ul>
+</li>
+</ul>
+<h2 id="在Hexo上踩过的坑"><a href="#在Hexo上踩过的坑" class="headerlink" title="在Hexo上踩过的坑"></a>在Hexo上踩过的坑</h2><h3 id="Hexo是什么"><a href="#Hexo是什么" class="headerlink" title="Hexo是什么"></a>Hexo是什么</h3><p>静态网页框架</p>
+<p><a href="https://hexo.io/zh-cn/index.html">Hexo</a></p>
+<h3 id="Hexo-与-GitHub-Pages"><a href="#Hexo-与-GitHub-Pages" class="headerlink" title="Hexo 与 GitHub Pages"></a>Hexo 与 GitHub Pages</h3><p><a href="https://www.jianshu.com/p/f9b213097c42">使用GitHub搭建Hexo技术博客托管在GitHub Pages上–安装教程 - 简书 (jianshu.com)</a></p>
+<p>一文足矣</p>
+<h3 id="当心哪些问题"><a href="#当心哪些问题" class="headerlink" title="当心哪些问题"></a>当心哪些问题</h3><ul>
+<li>_config.yml<ul>
+<li>更改URL(你要发布的站点)</li>
+<li>更改说明部分，让别人知道这是谁，这是什么</li>
+<li>更改主题，不要用原生，推荐NeXT</li>
+<li>写好search</li>
+<li>**deploy:**一定要配置好SSH和git</li>
+</ul>
+</li>
+<li>如果遇到了问题<ul>
+<li>GitHub pages 用的是 Jekyll</li>
+<li>直接push本地上去是不行的，需要hexo d</li>
+<li>hexo clean ; hexo g ; hexo s ;hexo d 一同操作重启试试</li>
+<li>如果明显有网页但是有问题，建议F12自己看看哪里出了问题而不是到处乱查</li>
+<li>GitHub pages有可能慢，可以用Gitee代替</li>
+</ul>
+</li>
+<li>你要掌握什么<ul>
+<li>熟练使用Git</li>
+<li>熟练使用markdown</li>
+<li>Node.js有使用背景</li>
+<li>有一颗钻研的心和自己思考的脑子，而不是只会fork</li>
+</ul>
+</li>
+</ul>
+<h2 id="我要发布哪些内容"><a href="#我要发布哪些内容" class="headerlink" title="我要发布哪些内容"></a>我要发布哪些内容</h2><ul>
+<li>有关计算机科学</li>
+<li>有关物理，数学等等</li>
+<li>有关思考的杂谈</li>
+<li>其他我没有想到，但是可能要写的内容</li>
+</ul>
+]]></content>
+      <categories>
+        <category>个人</category>
+      </categories>
+      <tags>
+        <tag>漫谈</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/07/05/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="更多有关hexo的内容"><a href="#更多有关hexo的内容" class="headerlink" title="更多有关hexo的内容"></a>更多有关hexo的内容</h3><p><a href="https://cloud.tencent.com/developer/article/1729537">hexo搭建个人网站博客完全教程 - 腾讯云开发者社区-腾讯云 (tencent.com)</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/351031589">Hexo配置NexT主题教程 - 知乎 (zhihu.com)</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/40173580">搭建 github.io 博客站点 - 知乎</a></p>
+<p><a href="https://www.jianshu.com/p/f9b213097c42">使用Github搭建Hexo技术博客托管在GitHub Pages上–安装教程 - 简书</a></p>
+<p>NexT官网：<a href="https://github.com/theme-next">NexT (github.com)</a></p>
+<p>Hexo官网：<a href="https://hexo.io/zh-cn/index.html">Hexo</a></p>
+]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/categories/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
